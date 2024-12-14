@@ -1,4 +1,4 @@
-task = input("Enter your task: Finish project report ")
+task = input("Enter your task: ")
 x = input("Priority (high/medium/low): ")
 y = input("Is it time-bound? (yes/no): ")
 match x:
