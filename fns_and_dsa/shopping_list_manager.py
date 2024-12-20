@@ -11,7 +11,7 @@ def main():
         display_menu()
         choice = int(input("Enter your choice: "))
         if choice == '1':
-            item = input("Enter the name of the new item: ")
+            item = input("Enter the item to add: ")
             shopping_list.append(item)
         elif choice == '2':
             item = input("Enter the name of the item you want to delete: ")
